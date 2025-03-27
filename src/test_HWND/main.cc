@@ -95,10 +95,10 @@ void Render_Text(kr::KidsRender& render
     auto do_translate = [&](kk::Rect r)
     {
         kk::Rect2f o{};
-        o.x = r.x;
-        o.y = r.y;
-        o.height = r.height;
-        o.width = r.width;
+        o.x = float(r.x);
+        o.y = float(r.y);
+        o.height = float(r.height);
+        o.width = float(r.width);
         o.x += text_p.x;
         o.y += text_p.y;
         o.x += baseline_offset.x;

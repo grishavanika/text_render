@@ -1,7 +1,6 @@
 include(${CMAKE_CURRENT_LIST_DIR}/../../CMakeFunctions.cmake)
 include(CMakePrintHelpers)
 include(${CMAKE_CURRENT_LIST_DIR}/../../third_party/freetype_integration.cmake)
-include(${CMAKE_CURRENT_LIST_DIR}/../../third_party/utf8proc_integration.cmake)
 
 if (KK_BUILD_RENDER_OPENGL)
   include(${CMAKE_CURRENT_LIST_DIR}/../../third_party/glad_integration.cmake)
@@ -41,6 +40,5 @@ endif ()
 
 target_link_libraries(kr_render PUBLIC ks_base)
 target_link_libraries(kr_render PUBLIC freetype_Integrated)
-target_link_libraries(kr_render PUBLIC utf8proc_Integrated)
 
 target_include_directories(kr_render PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
