@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "freetype",
+    "glad",
+    "utf8proc",
+    "glfw3"
+  ]
+}

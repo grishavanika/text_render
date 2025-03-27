@@ -1,0 +1,5 @@
+add_subdirectory(kk_os_render)
+add_subdirectory(kk_os_window)
+add_subdirectory(kr_render)
+add_subdirectory(ks_base)
+add_subdirectory(test_HWND)

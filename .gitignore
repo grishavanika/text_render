@@ -1,0 +1,5 @@
+build*/*
+Testing/*
+x64/*
+*.stackdump
+.vs/*
